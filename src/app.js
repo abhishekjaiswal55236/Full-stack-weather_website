@@ -3,6 +3,7 @@ const express=require("express")
 const hbs=require('hbs');
 const getlatlon=require("./utils/geocode.js")
 const forecast=require("./utils/forecast.js")
+const port=process.env.PORT || 3000
 
 const app=express()
 
@@ -92,6 +93,6 @@ app.get('*',(req,res)=>{
 
 
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
   console.log("enjoy your server is running ")
 })
