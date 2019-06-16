@@ -1,0 +1,60 @@
+.data{
+  margin:50px;
+  font-size: 20px;
+
+}
+form{
+  margin-bottom: 50px;
+}
+body{
+
+  font-family:arial;
+  margin:20px;
+  padding:0 16px;
+  align-self: center;
+  background-image: url(/images/pero-kalimero-304081-unsplash.jpg);
+
+
+}
+footer{
+  background: lightblue;
+  padding :3px;
+  margin:15px;
+  border-top:1px solid grey;
+
+}
+header{
+  margin-top:16px;
+  margin-bottom:48px;
+
+}
+h1{
+  font-size:50px;
+  margin-bottom:16px;
+}
+header a{
+  color:black;
+  text-decoration: none;
+  padding:15px;
+}
+#abhiimg{
+  border:2px solid black;
+  padding:10px;
+  margin :50px;
+}
+#main-content{
+  flex-grow:1;
+
+}
+input{
+  border:1px solid grey;
+  padding:9px;
+}
+button{
+  cursor:pointer;
+  border:1px solid grey;
+  background:grey;
+  color:white;
+  padding :9px;
+
+}

@@ -1,0 +1,42 @@
+
+  #main
+  {
+    background:pink;
+    text-align:justify;
+
+  }
+  #mainrow{
+    align-self: center;
+    width:"100%";
+  }
+  #mainrow td
+  {
+    background-color:lightblue;
+    height:40px;
+
+    color:darkblue;
+    text-align:justify;
+    border:2px solid darkblue;
+    border-radius: 5px;
+     display: inline-block;
+
+  }
+  #mainrow td :hover{
+    background-color: darkblue;
+    color:lightblue;
+  }
+
+  #bodyka{
+    background-image:url("/images/shutterstock_519460228.jpg");
+  }
+  #h1ka{
+    font-weight:bold;
+  }
+  #frameka
+  {
+    align:center;
+    width:600px
+    height:400px;
+    padding-top: 120px;
+    padding-left: 40%;
+  }
