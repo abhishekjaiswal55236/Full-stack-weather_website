@@ -70,7 +70,8 @@ getlatlon(req.query.address,(error,response)=>{
            res.send({
             forecast:data,
 
-            location:response.location
+            location:response.location,
+            
           })
 
       })

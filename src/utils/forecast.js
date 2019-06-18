@@ -14,7 +14,8 @@ const forecast=(latitude,longitude,callback)=>{
           {
             callback(0,{
                temperature:response.body.currently.temperature,
-               dewpoint:response.body.currently.dewPoint
+               dewpoint:response.body.currently.dewPoint,
+               min_temperature:response.body.daily.data[0].temperatureLow
             })
           }
       })
